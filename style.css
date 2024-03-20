@@ -124,3 +124,29 @@ section {
         padding: 0.5rem 2rem; /* Adjust padding for tablets */
     }
 }
+@media (max-width: 768px) {
+    .heading {
+        font-size: 6rem; /* Adjust font size for smaller screens */
+        top: 1rem; /* Adjust top position for smaller screens */
+    }
+
+    .sec-heading {
+        font-size: 3.5rem; /* Adjust font size for smaller screens */
+        padding: 0 0.5rem; /* Adjust padding for smaller screens */
+    }
+
+    .text {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+        padding: 0 0.5rem; /* Adjust padding for smaller screens */
+        margin: 1rem 0; /* Adjust margin for smaller screens */
+    }
+
+    .bg {
+        height: 200px; /* Adjust height for smaller screens */
+    }
+
+    .description {
+        padding: 0.3rem 0.7rem; /* Adjust padding for smaller screens */
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+}
